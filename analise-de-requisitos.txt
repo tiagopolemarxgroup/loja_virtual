@@ -1,0 +1,8 @@
+    Requisito Funcionais
+
+1 - Cadastro de empresa
+2 - Cadastro de usuário
+3 - Gerciamento de acessos
+4 - Cadastro de categorias de produtos
+5 - Cadastro de produtos
+6 - Cadastro de Cliente
