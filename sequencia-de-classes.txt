@@ -1,0 +1,22 @@
+1 - MarcaProduto - ok
+2 - Categoria_produto - ok
+3 - Acesso - ok
+4 - Pessoa - ok
+5 - Pessoa_jurica - ok
+6 - Pessoa_fisica - ok
+7 - Endereco
+8 - Usuario
+9 - Usuario_acesso
+10 - Conta_receber
+11 - Forma_pagamento
+12 - Conta_pagar
+13 - Cupom_desconto
+14 - Produto
+15 - Imagem_produto
+16 - Nota_fiscal_compra
+17 - Nota_item_produto
+18 - Status_rastreio
+19 - Nota_fiscal_venda
+20 - Vd_cp_loja_virt
+21 - item_loja_venda
+22 - Avaliacao_produto

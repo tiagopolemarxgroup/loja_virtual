@@ -1,13 +1,10 @@
 package com.api.lojavirtual.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
-
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -19,6 +16,7 @@ public class CategoriaProduto implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_categoria_produto")
+    @EqualsAndHashCode.Include
     private Long id;
     @Column(name = "nome_desc", nullable = false)
     private String nomeDesc;
